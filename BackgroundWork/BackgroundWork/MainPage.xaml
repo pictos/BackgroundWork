@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BackgroundWork"
+             x:Class="BackgroundWork.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Este App possui um serviço para pegar sua latitude e longitude. Valores exibidos no log"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+
+</ContentPage>
