@@ -17,6 +17,8 @@ namespace BackgroundWork
         protected override async void OnStart()
         {
             // Handle when your app starts
+
+            //Garantir que o app vai pedir permissão para acessar a localização
             var p = await Xamarin.Essentials.Geolocation.GetLocationAsync(new Xamarin.Essentials.GeolocationRequest(Xamarin.Essentials.GeolocationAccuracy.Default));
         }
 
